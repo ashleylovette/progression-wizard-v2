@@ -1,0 +1,37 @@
+.input-card{
+  margin: 6em 0;
+
+  mat-card-subtitle {
+      margin-top: 1em;
+  }
+
+  .input-group {
+    margin-top: 3em;
+    display: flex;
+  }
+
+  .note-form-field {
+    padding: 2em;
+    border-radius: 15%;
+  }
+
+  button {
+    margin: 2em;
+
+    &.primary {
+      background-color: purple;
+      color: white;
+
+    }
+
+    &.secondary {
+      border: 1.5px solid purple;
+      color: purple;
+    }
+  }
+}
+
+
+
+
+

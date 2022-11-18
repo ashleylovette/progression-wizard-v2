@@ -12,8 +12,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatDialogModule} from '@angular/material/dialog';
 import { ChordInputDialogComponent } from './chord-identifier/chord-input-dialog/chord-input-dialog.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 
@@ -34,7 +35,10 @@ import { ChordInputDialogComponent } from './chord-identifier/chord-input-dialog
     MatCardModule,
     MatInputModule,
     MatFormFieldModule,
-    MatDialogModule
+    ReactiveFormsModule,
+    FormsModule,
+    MatSnackBarModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
