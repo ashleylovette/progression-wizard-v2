@@ -60,6 +60,7 @@ export class ChordInputDialogComponent implements OnInit {
       let truthyChord = new ChordRef(chord[0], noteForm.value.notes);
       this._snackBar.open("Chord Found!");
       console.log(truthyChord);
+
     }
   }
 

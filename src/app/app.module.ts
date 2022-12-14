@@ -15,7 +15,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { ChordInputDialogComponent } from './chord-identifier/chord-input-dialog/chord-input-dialog.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-
+import {MatDividerModule} from '@angular/material/divider';
 
 
 @NgModule({
@@ -37,8 +37,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatFormFieldModule,
     ReactiveFormsModule,
     FormsModule,
-    MatSnackBarModule
-
+    MatSnackBarModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,19 @@
-.chord {
-  height: 13em;
-  width: 13em;
-  background-color: white;
-  color: black;
+.chord-identifier-container {
+ margin: 2em;
+
+ .chord-identifier-title {
+ font-size: xx-large;
+ font-weight: lighter;
+ }
+
+ .chord {
+  margin-top: 3em;
+   height: 13em;
+   width: 13em;
+   background-color: white;
+   color: gray;
+ }
 }
+
+
 
